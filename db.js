@@ -8,4 +8,4 @@ var Todo = new Schema({
 });
 
 mongoose.model( 'Todo', Todo );
-mongoose.connect( 'mongodb://localhost/express-todo' );
+mongoose.connect( 'mongodb://admin:admin@ds151702.mlab.com:51702/iamnodejs007' );
